@@ -1,0 +1,214 @@
+@charset "UTF-8";
+body {
+    background-color: #ffffff;
+	background-image:url("images/leaf2.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+	padding: 5px;
+    height: 1000px;
+    width: 80%;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 2;
+	font-family: 'Roboto', sans-serif;
+	color:#242424;
+}
+main {
+    height: 1100px;
+    padding: 50px;
+    border: 5px solid #242424;
+    background-color: #837796;
+}
+
+header{
+	width:100%;
+	color: #242424;
+	
+	
+}
+h1{
+    font-size: 40px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    font-family: 'Jomolhari', serif;
+    color: #242424;
+}
+
+h2{
+	margin-bottom:-10px;
+}
+
+h3{
+	font-family: 'Jomolhari', serif;
+}
+
+
+
+h4{
+	margin-top:0;
+	text-align:center;
+	font-family: 'Jomolhari', serif;
+	
+}
+
+.br{
+	line-height:1;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.logo{
+	width:250px;
+	float:right;
+	margin-top:-30px;
+	
+}
+
+#Tabs1{
+	clear:both;
+}
+.acc{
+	font-size:15px;
+}
+.join{
+	margin-left:2.5%;
+	margin-bottom:0;
+}
+.choir-tabs {
+    
+    float: left;
+    width: 48%;
+    height: 150px;
+	margin-left:2.5%;
+}
+
+
+.info{
+	margin-top:40px;
+	
+}
+.info p{
+    text-align: center;
+    border: 3px solid #484848;
+}
+
+.info p:hover{
+	background-color:#948DA9;
+	color:white;
+	font-size:20px;
+}
+
+.form-space {
+    
+    float: right;
+    width: 48%;
+}
+
+form div input{
+	margin-bottom:25px;
+	
+	}
+
+form div #choirs,#range{
+	margin-bottom:25px;
+	
+	}
+
+
+
+.form-section{
+    background-color: #D7D7D7;
+    float: right;
+    padding: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 70%;	
+	border: 3px solid #484848;
+}
+
+input{
+	clear:both;
+	display: block;
+	width:80%;
+}
+
+.submit{
+	margin-top:15px;
+}.learn-more {
+    float: left;
+    width: 50%;
+}
+
+.about-choirs{
+	width:100%;
+	padding:0 50px;
+		
+}
+
+.thirds{
+	width: 33.3%;
+	float:left;
+}
+
+.half{
+	width:50%;
+	float:left;
+	
+}
+
+
+.mt{
+	width:68%;
+	margin-top:93px;
+	float:right;
+	padding-right:100px;
+	
+}
+
+
+.concert-split{
+	width:100%;
+	padding: 0 20px;
+	
+	
+}
+
+.concerts{
+	width:50%;
+	float:left;
+	
+}
+
+.conim{
+	height:200px
+}
+
+
+.foot{
+	padding-top:4%;
+	float:left;
+	padding-left:5px;
+}
+.footim{
+	width: 50px;
+	clear:both;
+	padding-top:6%;
+
+}
+
+footer a h3{
+	color:black;
+}
+footer a h3:hover{
+	color:#462260;	
+	
+}
+
+footer a h3:visited{
+	color:#000;
+}

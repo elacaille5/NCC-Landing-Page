@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>North Capital Chorus</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+	
+	
+<link href="https://fonts.googleapis.com/css?family=Jomolhari|Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	
+	<main>
+
+<header>
+	<div class="half">
+	<h1 id="top">Join Our Choir Today!</h1>
+	 <h3>Love singing and meeting new friends? </h3>
+	  <h3> Follow the steps below to sign up!</h3>
+	</div>
+	
+	<div class="half">
+    <img src="images/logo2.png" class="logo" alt="NCC-logo"/> 
+	
+	</div>
+	</header>
+		
+	
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1">Register</a></li>
+      <li><a href="#tabs-2">About</a></li>
+      <li><a href="#tabs-3">Events</a></li>
+    </ul>
+    <div id="tabs-1">
+		
+		
+	<!--CHOIR TAB SECTION LEFT-->	
+		
+		<h2 class="join">How to Join</h2>
+      <section class="choir-tabs">
+		 <h3> Step 1: Choose your Choir</h3>
+        <div id="Accordion1">
+          <h3><a href="#">Junior Choir</a></h3>
+          <div style="display: block; max-height: 150px;">
+            <p>Ages 7-11</p>
+			<p>Mondays 5:30-6:30</p>
+			  <p class="acc"> Our Saviors Lutheran Church</p>
+          </div>
+          <h3><a href="#">Youth Choir</a></h3>
+          <div style="display: block; max-height: 150px;">
+             <p>Ages 12-18</p>
+			<p>Mondays 6:45-8:45</p>
+			  <p class="acc"> Our Saviors Lutheran Church</p>
+          </div>
+          <h3><a href="#">Northern Voices</a></h3>
+          <div style="display: block; max-height: 150px;">
+             <p>Ages 19+</p>
+			<p>Thursdays 7:00-9:00</p>
+			  <p class="acc"> Our Saviors Lutheran Church</p>
+          </div>
+        </div>
+		  
+		  <div class="info">
+		  <h3>Step 3: Come Meet Us!</h3>
+			  <a href="https://goo.gl/maps/SYDmPxRbjbsd9zgL9" target="_blank"><p>Our Savior's Lutheran Church</p></a>
+			
+			  	
+		  <a href="mailto:northcapitalchoru@gmail.com"><p>northcapitalchorus@gmail.com</p></a> 
+			  <a href=" https://www.facebook.com/northcapitalchorus/" target="_blank"><p>FACEBOOK</p></a>
+			  
+			  <h4> Feel free to drop by and see if choir is for you!</h4>
+		  </div>
+		  
+	 
+		  
+		  
+      </section>
+      
+		<!--FOR SECTION RIGHT-->
+		
+		<section class="form-space">
+			<h3> Step 2: Fill out a Registration Form</h3>
+			
+			<div class="form-section">
+				
+				<!-- 
+  Replace form-handler.php with URL where to send the form-data when the form is submitted
+  Goto http://w3c.github.io/html-reference/input.text.html#input.text for more information on all attributes that can be used with text input field
+-->
+<form method="post" action="mailto:elacaille.95@gmail.com">
+	
+	
+  <div><!--text field-->
+    <!--<label for="name">Chorister Name: <span class="required">*</span> </label>-->
+    <input type="text" id="name" name="name" value="" placeholder="Chorister Full Name" required="required" autofocus />
+  </div>
+	
+	
+  <div><!--text field-->
+    <!--<label for="age">Age: <span class="required">*</span> </label>-->
+    <input type="text" id="age" name="age" value="" placeholder="Age" required="required" autofocus />
+  </div>
+   
+  
+  <div><!--drop down menu-->
+    <!--<label for="choirs">Select a Choir: </label><span class="required">*</span>-->
+	  
+    <select id="choirs" name="choirs">
+      <option required value="chose-choir">Select a Choir</option><option value="junior">Junior Choir</option>
+      <option value="youth">Youth Choir</option>
+      <option value="NV">Northern Voices</option>
+	<option value="uncertain">Uncertain</option>
+    </select>
+  </div>
+	
+	
+	  <div><!--drop down menu-->
+    <!--<label for="range">Select Your Range: </label><span class="required">*</span>-->
+	  
+    <select id="range" name="range">
+      <option value="chose-range">Select Your Range</option><option value="soprano">Soprano Choir</option>
+      <option value="alto">Alto Choir</option>
+      <option value="tenor">Tenor
+		  Voices</option>
+	<option value="bass">Bass</option>
+		<option value="uncertain">Uncertain</option>
+    </select>
+  </div>
+
+		
+		
+		
+
+  <div><!--text field-->
+    <!--<label for="parent">Parent or Gardien: </label>-->
+    <input type="text" id="parent" name="parent" value="" placeholder="Paren or Gardien (under 19)" autofocus />
+  </div>
+	
+	<div><!--text field-->
+    <!--<label for="phone">Phone Number: <span class="required">*</span></label>-->
+    <input type="tel" id="tel" name="tel" value="" placeholder="Phone Number" required="required" autofocus />
+  </div>
+	
+	
+		
+	<div> <!--email field-->
+   <!-- <label for="email">Email Address: <span class="required">*</span> </label>-->
+    <input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required" />
+  </div>
+  
+  <div><!--text area-->
+   <!-- <label for="message">Questions and Comments:  </label>-->
+    <textarea id="message" name="message" placeholder="Questions and Comments" ></textarea>
+  </div>
+  
+
+  
+  <div>
+    <input type="submit" value="Submit" id="submit" />
+  </div>
+</form>
+		
+		</div>
+		
+		</section>
+		
+		
+   <!--ABOUT TAB-->
+		
+    </div>
+    <div id="tabs-2">
+      
+		
+	<div class="about-choirs">
+		<h2> Choirs </h2>
+		<div class="thirds">
+			<h3>Junior Choir</h3>
+			<p>Ages 7-11</p>
+			<p>Mondays 5:30-6:30</p>
+        </div>
+        <div class="thirds">
+			<h3>Youth Choir</h3>
+			<p>Ages 12-18</p>
+			<p>Mondays 6:45-8:45</p>
+		</div>
+           
+		<div class="thirds">
+			<h3> Northern Voices</h3>
+        	<p>Ages 19+</p>
+			<p>Thursdays 7:00-9:00</p>
+		</div>
+		
+	</div>
+			
+		
+		<br>
+		
+		<div class="about-choirs">
+			
+			
+			<div class="half">
+				
+				
+				<h2> Meet the Director</h2>
+		
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				
+				<h2> About the Choir</h2>
+		
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+				
+			</div>
+			
+			<div class="half">
+				
+		    	<img src="images/melanie.jpeg"  class="mt" alt="Picture of Malanie Taylor"/> 
+			</div>
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+    </div>
+    <div id="tabs-3">
+		
+		<h2 class="join"> Upcoming Concerts</h2>
+		
+	<div class="concert-split">
+      <div class="half concerts">
+		
+		  <h3> Concert Name</h3>
+		  
+	    <img src="images/bubbles.jpg" class="conim" alt="concert poster"/> 
+		<p> Concert date</p>
+		<p> Concert Location</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  </p>
+		</div>
+		    <div class="half concerts">
+		
+		  <h3> Concert Name</h3>
+		  
+	    <img src="images/bubbles.jpg" class="conim" alt="concert poster"/> 
+		
+		<p> Concert date</p>
+		<p> Concert Location</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  </p>
+	  </div>
+		
+	  </div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+    </div>
+  </div> <!--end tabs-->
+	
+		<footer> 
+		<a href="#top"><img src="images/logo2.png" class="footim foot" alt="logo"/> 
+		<h3 class="foot">North capital chorus</h3>
+		</a>
+		</footer>
+		
+		
+	</main>
+	
+	
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+</script>
+</body>
+</html>

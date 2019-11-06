@@ -1,0 +1,54 @@
+/*! jQuery UI - v1.10.4 - 2014-04-02
+* http://jqueryui.com
+* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
+
+.ui-tabs{
+    position: relative;
+    /* [disabled]padding:.2em; */
+}.ui-tabs .ui-tabs-nav{
+    margin: 0;
+    padding-top: .2em;
+    padding-right: .2em;
+    padding-left: .2em;
+    padding-bottom: 0;
+}.ui-tabs .ui-tabs-nav li{
+    list-style: none;
+    float: left;
+    position: relative;
+    /* [disabled]top:0; */
+    margin-top: 1px;
+    margin-right: 4px;
+    margin-left: -3px;
+    margin-bottom: 0;
+    border-bottom-width: 0;
+    padding: 0;
+    white-space: nowrap
+}.ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+    float: left;
+    padding-top: .5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: .5em;
+    text-decoration: none
+}.ui-tabs .ui-tabs-nav li.ui-tabs-active{
+    /* [disabled]margin-bottom: 2px; */
+    /* [disabled]padding-bottom: 1px; */
+}.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,.ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,.ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor{
+    cursor: text;
+    /* [disabled]border-left-style: solid; */
+    /* [disabled]border-right: 0px solid #FFFFFF; */
+    /* [disabled]border-top: 0px solid #000000; */
+    background-color: #FFFFFF;
+    /* [disabled]border-left-color: #FFFFFF; */
+}.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor{cursor:pointer}.ui-tabs .ui-tabs-panel{
+    display: block;
+    border-left: 3px solid #D7D7D7;
+    border-right: 3PX solid #D7D7D7;
+    border-bottom: 3px solid #D7D7D7;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-image: none;
+    background-color: #FFFFFF;
+}
