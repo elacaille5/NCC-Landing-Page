@@ -161,6 +161,9 @@ input{
 	
 }
 
+.half p{
+	padding-right:10px;
+}
 
 .mt{
 	width:68%;
